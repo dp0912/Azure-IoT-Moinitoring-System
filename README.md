@@ -52,8 +52,8 @@ Architecture diagram coming soon.
 
 ## Project Roadmap
 
-- [ ] Deploy Azure Linux VM
-- [ ] Configure Azure networking
+- [x] Deploy Azure Linux VM
+- [x] Configure Azure networking
 - [ ] Develop telemetry simulator
 - [ ] Deploy application to Linux
 - [ ] Configure Azure Monitor
@@ -64,3 +64,20 @@ Architecture diagram coming soon.
 - [ ] Review RBAC and security
 - [ ] Configure tags and cost management
 - [ ] Complete project documentation
+
+
+## Azure Infrastructure
+
+The application is hosted on an Ubuntu Linux virtual machine in Microsoft
+Azure.
+
+### Configuration
+
+- Operating System: Ubuntu Server 24.04 LTS
+- Compute: Azure Virtual Machine
+- VM Size: Standard_B2ats_v2
+- Networking: Azure VNet and subnet
+- Storage: Managed OS disk
+- Environment: Development
+
+The infrastructure is organized within a dedicated Azure Resource Group.
