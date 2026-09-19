@@ -1,0 +1,13 @@
+// Query Linux Syslog events collected from the Azure VM
+Syslog
+| where Computer == "iot-monitor-vm"
+| project TimeGenerated, Computer, Facility, SeverityLevel, SyslogMessage
+| order by TimeGenerated desc
+| take 50
+
+// Query project-specific test messages
+Syslog
+| where Computer == "iot-monitor-vm"
+| where SyslogMessage contains "Azure IoT Monitoring System"
+| project TimeGenerated, Computer, Facility, SeverityLevel, SyslogMessage
+| order by TimeGenerated desc
