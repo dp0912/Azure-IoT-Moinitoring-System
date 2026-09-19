@@ -1,0 +1,20 @@
+{"timestamp": "2026-09-19T03:31:31.894552+00:00", "device_id": "simulated-iot-device-01", "light_percent": 46.83, "sound_db": 82.83, "distance_cm": 132.42, "status": "ALERT", "alerts": ["HIGH_SOUND"]}
+{"timestamp": "2026-09-19T03:31:41.894835+00:00", "device_id": "simulated-iot-device-01", "light_percent": 35.35, "sound_db": 99.24, "distance_cm": 113.58, "status": "ALERT", "alerts": ["HIGH_SOUND"]}
+{"timestamp": "2026-09-19T03:31:51.895103+00:00", "device_id": "simulated-iot-device-01", "light_percent": 42.76, "sound_db": 64.53, "distance_cm": 82.11, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:32:01.895361+00:00", "device_id": "simulated-iot-device-01", "light_percent": 93.05, "sound_db": 81.21, "distance_cm": 40.66, "status": "ALERT", "alerts": ["HIGH_LIGHT", "HIGH_SOUND"]}
+{"timestamp": "2026-09-19T03:32:11.895640+00:00", "device_id": "simulated-iot-device-01", "light_percent": 70.17, "sound_db": 54.76, "distance_cm": 136.89, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:32:21.895875+00:00", "device_id": "simulated-iot-device-01", "light_percent": 54.75, "sound_db": 34.61, "distance_cm": 93.87, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:32:31.896128+00:00", "device_id": "simulated-iot-device-01", "light_percent": 70.1, "sound_db": 91.82, "distance_cm": 29.57, "status": "ALERT", "alerts": ["HIGH_SOUND"]}
+{"timestamp": "2026-09-19T03:32:41.896391+00:00", "device_id": "simulated-iot-device-01", "light_percent": 65.01, "sound_db": 52.91, "distance_cm": 95.78, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:32:51.896689+00:00", "device_id": "simulated-iot-device-01", "light_percent": 50.98, "sound_db": 71.75, "distance_cm": 95.94, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:33:01.896946+00:00", "device_id": "simulated-iot-device-01", "light_percent": 94.8, "sound_db": 85.7, "distance_cm": 90.45, "status": "ALERT", "alerts": ["HIGH_LIGHT", "HIGH_SOUND"]}
+{"timestamp": "2026-09-19T03:33:11.897184+00:00", "device_id": "simulated-iot-device-01", "light_percent": 14.65, "sound_db": 90.71, "distance_cm": 191.84, "status": "ALERT", "alerts": ["HIGH_SOUND"]}
+{"timestamp": "2026-09-19T03:33:21.897422+00:00", "device_id": "simulated-iot-device-01", "light_percent": 76.49, "sound_db": 79.65, "distance_cm": 38.69, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:33:31.897747+00:00", "device_id": "simulated-iot-device-01", "light_percent": 56.98, "sound_db": 73.76, "distance_cm": 195.56, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:33:41.898009+00:00", "device_id": "simulated-iot-device-01", "light_percent": 41.05, "sound_db": 73.48, "distance_cm": 115.53, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:33:51.898209+00:00", "device_id": "simulated-iot-device-01", "light_percent": 62.25, "sound_db": 33.24, "distance_cm": 75.57, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:34:01.898461+00:00", "device_id": "simulated-iot-device-01", "light_percent": 96.48, "sound_db": 73.83, "distance_cm": 49.19, "status": "ALERT", "alerts": ["HIGH_LIGHT"]}
+{"timestamp": "2026-09-19T03:34:11.898734+00:00", "device_id": "simulated-iot-device-01", "light_percent": 13.69, "sound_db": 58.36, "distance_cm": 164.68, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:34:21.898983+00:00", "device_id": "simulated-iot-device-01", "light_percent": 39.51, "sound_db": 77.11, "distance_cm": 181.28, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:34:31.899245+00:00", "device_id": "simulated-iot-device-01", "light_percent": 17.16, "sound_db": 43.92, "distance_cm": 123.27, "status": "NORMAL", "alerts": []}
+{"timestamp": "2026-09-19T03:34:41.899492+00:00", "device_id": "simulated-iot-device-01", "light_percent": 67.34, "sound_db": 75.0, "distance_cm": 125.4, "status": "NORMAL", "alerts": []}
