@@ -1,0 +1,65 @@
+                         AZURE CLOUD
+┌───────────────────────────────────────────────────────────────┐
+│                     Resource Group                            │
+│                    dhruvinproject                             │
+│                                                               │
+│  ┌──────────────────────────────┐                             │
+│  │ Azure Linux VM               │                             │
+│  │ iot-monitor-vm               │                             │
+│  │ Ubuntu 24.04                 │                             │
+│  │                              │                             │
+│  │ Python Telemetry Simulator   │                             │
+│  │  • Light                     │                             │
+│  │  • Sound                     │                             │
+│  │  • Distance                  │                             │
+│  │  • Alert evaluation          │                             │
+│  │                              │                             │
+│  │ systemd service              │                             │
+│  │      ↓                       │                             │
+│  │ telemetry.log                │                             │
+│  └──────────────┬───────────────┘                             │
+│                 │                                             │
+│       ┌─────────┴─────────┐                                   │
+│       │                   │                                   │
+│       ▼                   ▼                                   │
+│  Azure Monitor       Linux Syslog                             │
+│  VM Metrics               │                                   │
+│       │                   ▼                                   │
+│       │          Azure Monitor Agent                          │
+│       │                   │                                   │
+│       │          Data Collection Rule                         │
+│       │                   │                                   │
+│       │                   ▼                                   │
+│       │          Log Analytics Workspace                      │
+│       │          law-iot-monitoring                            │
+│       │                   │                                   │
+│       │                   ▼                                   │
+│       │              KQL Queries                              │
+│       │                                                       │
+│       ▼                                                       │
+│  CPU Alert Rule                                              │
+│       │                                                       │
+│       ▼                                                       │
+│  Action Group                                                │
+│       │                                                       │
+│       ▼                                                       │
+│  Email Notification                                          │
+│                                                               │
+│  ┌──────────────────────────────┐                             │
+│  │ Azure Blob Storage           │                             │
+│  │ telemetry-archive            │                             │
+│  │ Sample telemetry archive     │                             │
+│  └──────────────────────────────┘                             │
+│                                                               │
+│  SECURITY / GOVERNANCE                                        │
+│  • VNet + NSG                                                 │
+│  • Restricted SSH + SSH key authentication                    │
+│  • Azure RBAC                                                 │
+│  • Private Blob container                                     │
+│  • Resource tags                                              │
+│  • Cost Management budget                                     │
+└───────────────────────────────────────────────────────────────┘
+
+                         GitHub
+                            ↑
+             Source Code • KQL • Documentation
