@@ -71,7 +71,7 @@ Architecture diagram coming soon.
 The application is hosted on an Ubuntu Linux virtual machine in Microsoft
 Azure.
 
-### Configuration
+## Configuration
 
 - Operating System: Ubuntu Server 24.04 LTS
 - Compute: Azure Virtual Machine
@@ -81,3 +81,19 @@ Azure.
 - Environment: Development
 
 The infrastructure is organized within a dedicated Azure Resource Group.
+
+## IoT Telemetry Simulator
+
+The physical sensor layer from the original project is replaced with a
+Python-based telemetry simulator.
+
+The simulator generates:
+
+- Light level (%)
+- Sound level (dB)
+- Distance (cm)
+- Device status
+- Alert conditions
+
+This allows the Azure monitoring architecture to be demonstrated without
+requiring the original physical hardware.
