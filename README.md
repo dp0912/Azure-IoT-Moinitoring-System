@@ -97,3 +97,24 @@ The simulator generates:
 
 This allows the Azure monitoring architecture to be demonstrated without
 requiring the original physical hardware.
+
+
+## Azure Monitoring and Alerting
+
+Azure Monitor is used to observe the health and performance of the Azure Linux VM.
+
+Infrastructure metrics monitored include:
+
+- CPU utilization
+- Network activity
+- Disk activity
+
+A metric alert rule named `alert-high-cpu` detects when average CPU utilization exceeds the configured threshold.
+
+The alert is connected to the `ag-iot-monitoring` Azure Monitor Action Group, which provides email notification when the condition is triggered.
+
+The alerting workflow was validated by generating a controlled CPU workload on the Linux VM using `stress-ng`.
+
+### Alerting Flow
+
+VM CPU Metric → Azure Monitor → Alert Rule → Action Group → Email Notification
